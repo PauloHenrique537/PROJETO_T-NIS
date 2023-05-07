@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family= Montserrat & family = Roboto:wght@400;500;700 & display=swap');
+:root {
+    --cinza-input: #EBEBEB ;
+    --cinza-placeholder: #969696;
+    --cinza-titulo:#9f9f9f;
+    --preto-texto: #1F1F1F;
+    --cinza-section: #F3F3F3;
+    --branco: #F3F3F3;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--branco);
+    color: var(--preto-texto);
+}
+
+header {
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header p {
+    font-weight: 700;
+}
+
+nav a {
+    margin-right: 30px;
+}
+
+.acoes {
+    display: flex;
+}
+
+.busca {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 175px;
+    height: 30px;
+    padding: 5px;
+    background-color: var(--cinza-input);
+    border: none;
+    border-radius: 50px;
+    margin: 20px;
+
+}
+
+.busca-logo{
+    height: 23px;
+    margin: 0 5px 0 5px;
+}
+
+.busca-input {
+    width: 80%;
+    background-color: var(--cinza-input);
+    border: none;
+}
+
+::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--cinza-placeholder);
+    opacity: 1;
+}
+
+.carrinho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrinho-botao {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--cinza-input);
+}
+
+.carrinho-logo {
+    width: 12px;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+.banner {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.banner-texto {
+    width: 480px;
+}
+
+.banner-texto h1 {
+    margin:0 0 30px 0;
+    line-height: 104px;
+    font-weight: 700px;
+    font-size: 104px;
+    color: var(--cinza-titulo)
+}
+
+.banner-texto p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 100px;
+    line-height: 28px;
+}
+
+.adicionar-carrinho {
+    width: 250px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    border:2px solid black;
+    border-radius: 12px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.banner-tenis {
+    width: 1000px;
+}
+
+.carrinho-texto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight:700 ;
+} 
+
+.tenis {
+    width: 85%;
+    padding: 30px 0 65px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cinza-input);
+    border-radius: 8px;
+}
+
+.tenis h2 {
+    font-size: 30px;
+    margin-bottom:  45px;
+}
+
+.tenis p {
+     font-weight: 700;
+     margin-bottom: 45px;
+}
+
+.destaques {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.destaque {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.destaque img {
+    height: 500px;
+}
+
+.destaque-texto h3 {
+    color: var(--cinza-titulo);
+    font-size: 50px;
+}
+
+.destaque-texto p {
+    font-weight: 400;
+    line-height: 28px;
+    font-size:20px;
+}
+
+.destaque-texto {
+    width: 450px;
+}
+
+.corra{
+    width: 100%;
+   display:inline-block;
+   position: relative;
+}
+
+.corra-texto {
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.corra-texto p {
+    margin: 0px;
+    font-size: 104px;
+    color: var(--branco);
+    line-height: 100px;
+    font-weight: 700;
+}
+
+.pes {
+    width: 100%;
+}
+
+.vetor-texto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 40px;
+    margin-right: 50px;
+}
+
+.contato {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--cinza-input);
+    border-radius: 8px;
+}
+
+.contato h3{
+    margin: 35px 0 35px 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.contato form {
+    width: 40%;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contato textarea {
+    resize: none;
+}
+
+.contato button {
+    height: 60px;
+    background-color: transparent;
+    border:2px solid black;
+    border-radius: 12px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.contato-checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+
+.contato-input {
+    background-color: var(--branco);
+    border: none;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+input[type=checkbox] {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+label {
+    color: var(--cinza-placeholder);
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cinza-input);
+}
+
+
+.containers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.brand {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 15px;
+
+}
+
+.container h6 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0 10px 0;
+}
+
+.creditos {
+    display: flex;
+    flex-direction: row;
+    margin: 60px 0 20px 0;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.creditos p{
+    margin: 0%;
+    font-size: 15px;
+}
+
+.creditos img {
+    margin-left: 6px;
+    width: 110px;
+}
